@@ -13,7 +13,6 @@ function main(args) {
   const decoded = decode(encoded)
   console.log('We can decode it back into:\n', decoded)
 
-
   let name = args.name || 'stranger'
   let greeting = 'Hello ' + name + '!'
   console.log(greeting)
